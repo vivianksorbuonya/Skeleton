@@ -70,13 +70,13 @@ html {
     height: auto !important;
 }
 
-.typeform-share.button {
+.typeform-share,.button {
     background: #434343;
     border: 1px solid #434343;
     color: #efefef;
 }
 
-.typeform-share.button:hover {
+.typeform-share,.button:hover {
     background: #ffc107;
     border: 1px solid #ffc107;
     text-decoration: none;
@@ -84,7 +84,7 @@ html {
     color: #434343;
 }
 
-.typeform-share.button:focus {
+.typeform-share,.button:focus {
     background: #434343;
     border: 1px solid #434343;
     color: #efefef;
