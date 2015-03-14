@@ -1,3 +1,11 @@
+html {
+  background: url("https://s3-us-west-2.amazonaws.com/vivianwebprint/05.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .header {
     background: #efefef;
     width: 100%;
@@ -23,9 +31,13 @@
   	color: #434343;
 }
  
-#nav ul li {
+#nav ul {
     display: inline-block;
     float: right;
+}
+
+#nav li {
+    float: left;
     margin: 15px;
     text-align: center;
   	font-size: 11px;
@@ -34,6 +46,7 @@
   	letter-spacing: .1rem;
   	text-transform: uppercase;
   	text-decoration: none;
+    list-style-type: none;
 }
 
 #nav a {
@@ -48,27 +61,37 @@
 }
 
 .home {
-    background-image: url("https://s3-us-west-2.amazonaws.com/vivianwebprint/05.jpg");
-    min-height: 700px;
-    background-size: cover;
-    top: 0px;
-    left: 0px;
+    margin: 180px 0 180px 0;
 }
 
-.about {
-    height: 100%;
-    background: #efefef;
+.home img {
+    margin: 0 0 40px 0;
+}
+
+.button {
+    background: #434343;
+    border: 1px solid #434343;
+    color: #efefef;
+}
+
+.button:hover {
+    background: #ffc107;
+    border: 1px solid #ffc107;
+    text-decoration: none;
+    font-weight: bold;
     color: #434343;
-    font-weight: 600;
+}
+
+.services {
+    color: #434343;
 }
 
 .footer {
     background: #434343;
+    width: 100%;
     color: #efefef;
-    position: absolute;
     left: 0px;
     bottom: 0px;
-    height: 75px;
     border-top: 1px solid #ffc107;
 }
 
