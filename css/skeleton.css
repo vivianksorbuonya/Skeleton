@@ -125,7 +125,9 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  color: #efefef; /* color: #222; */
+  background-color: #434343;
+  }
 
 
 /* Typography
@@ -221,7 +223,7 @@ input[type="button"].button-primary:focus {
   color: #FFF;
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
-
+ 
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
