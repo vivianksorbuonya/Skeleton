@@ -6,17 +6,14 @@ html {
   background-size: cover;
 }
 
-.header {
-    background: #efefef;
+header {
+    background: #434343;
     width: 100%;
-	height: 75px;
+	height: 70px;
 	position: fixed;
+	border-bottom: 1px solid #434343;
 	z-index: 100;
 }
-
-/* #nav {
-    margin: 25px 0 0 0;
-} */
 
 #name {
     display: inline-block;
@@ -28,15 +25,15 @@ html {
   	letter-spacing: .1rem;
   	text-transform: uppercase;
   	text-decoration: none;
-  	color: #434343;
+  	color: #efefef;
 }
  
-#nav ul {
+nav ul {
     display: inline-block;
     float: right;
 }
 
-#nav li {
+nav li {
     float: left;
     margin: 15px;
     text-align: center;
@@ -49,19 +46,37 @@ html {
     list-style-type: none;
 }
 
-#nav a {
+nav a {
 	text-decoration: none;
-	color: #434343;
+	color: #efefef;
 }
  
-#nav a:hover {
+nav a:hover {
     text-decoration: none;
     font-weight: bold;
     color: #ffc107;
 }
 
+nav .free {
+    background: #ffc107;
+    border: 1px solid #ffc107;
+    border-radius: 4px;
+    color: #434343;
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+}
+
+nav .free:hover {
+    background: #efefef;
+    border: 1px solid #efefef;
+    text-decoration: none;
+    font-weight: bold;
+    color: #434343;
+}
+
 .home {
-    margin: 180px 0 180px 0;
+    margin: 100px 0 180px 0;
 }
 
 .home img {
@@ -70,7 +85,7 @@ html {
     height: auto !important;
 }
 
-.typeform-share,.button {
+.typeform-share,.button,.button:focus {
     background: #434343;
     border: 1px solid #434343;
     color: #efefef;
@@ -84,31 +99,21 @@ html {
     color: #434343;
 }
 
-.typeform-share,.button:focus {
-    background: #434343;
-    border: 1px solid #434343;
-    color: #efefef;
-}
-
-.services {
-    color: #434343;
-}
-
-.footer {
+footer {
     background: #434343;
     width: 100%;
     color: #efefef;
     left: 0px;
     bottom: 0px;
-    border-top: 1px solid #ffc107;
+    border-top: 1px solid #434343;
 }
 
-.footer a {
+footer a {
 	text-decoration: none;
 	color: #efefef;
 }
 
-.footer a:hover {
+footer a:hover {
     text-decoration: none;
     font-weight: 600;
     color: #ffc107;
