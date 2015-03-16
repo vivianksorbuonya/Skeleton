@@ -11,8 +11,11 @@ header {
     width: 100%;
 	height: 70px;
 	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
 	border-bottom: 1px solid #434343;
-	z-index: 100;
+	z-index: 1521;
 }
 
 #name {
@@ -26,6 +29,16 @@ header {
   	text-transform: uppercase;
   	text-decoration: none;
   	color: #efefef;
+}
+
+#name a {
+    color: #efefef;
+    text-decoration: none;
+}
+
+#name a:hover {
+    color: #ffc107;
+    text-decoration: none;
 }
  
 nav ul {
@@ -57,7 +70,7 @@ nav a:hover {
     color: #ffc107;
 }
 
-nav .free {
+nav #free {
     background: #ffc107;
     border: 1px solid #ffc107;
     border-radius: 4px;
@@ -67,7 +80,7 @@ nav .free {
     padding: 0 30px;
 }
 
-nav .free:hover {
+nav #free:hover {
     background: #efefef;
     border: 1px solid #efefef;
     text-decoration: none;
@@ -76,7 +89,7 @@ nav .free:hover {
 }
 
 .home {
-    margin: 100px 0 180px 0;
+    margin: 100px 0;
 }
 
 .home img {
@@ -91,7 +104,7 @@ nav .free:hover {
     color: #efefef;
 }
 
-.typeform-share,.button:hover {
+.button:hover {
     background: #ffc107;
     border: 1px solid #ffc107;
     text-decoration: none;
