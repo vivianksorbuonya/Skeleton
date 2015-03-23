@@ -1,6 +1,5 @@
 html {
-  background: url("//s3-us-west-2.amazonaws.com/vivianwebprint/05-web.jpg",
-  "//s3-us-west-2.amazonaws.com/vivianwebprint/01-web.jpg","//s3-us-west-2.amazonaws.com/vivianwebprint/02-web.jpg") no-repeat center center fixed; 
+  background: url("//s3-us-west-2.amazonaws.com/vivianwebprint/05-web.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
