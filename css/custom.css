@@ -112,11 +112,32 @@ nav #free:hover {
     color: #434343;
 }
 
+.form {
+    background: #999;
+    width: 100%;
+    padding-top: 15px;
+    border: 1px solid #434343;
+    color: #434343;
+}
+
+.form label, input {
+    display: inline;
+}
+
+.form button {
+    padding-top: 150px;
+    background: #efefef;
+    border: 1px solid #ffc107;
+    color: #434343;
+}
+
 footer {
     background: #434343;
+    padding-bottom: 5%;
     width: 100%;
     color: #efefef;
     left: 0px;
+    right: 0px;
     bottom: 0px;
     border-top: 1px solid #434343;
 }
