@@ -125,11 +125,6 @@ html {
     background-color: #efefef;
 }
 
-#showroom {
-    animation-delay: 0.75s;
-    -webkit-animation-delay: 0.75s;
-}
-
 #showroom .title, #open .title {
     padding-top: 20px;
     background-color: #ffc107;
@@ -151,11 +146,6 @@ html {
     background: #ffc107;
     border: 1px solid #ffc107;
     color: #000;
-}
-
-#open {
-    animation-delay: 1.0s;
-    -webkit-animation-delay: 1.0s;
 }
 
 #open a {
@@ -203,8 +193,6 @@ footer {
     right: 0px;
     bottom: 0px;
     border-top: 1px solid #ffc107;
-    animation-delay: 1.25s;
-    -webkit-animation-delay: 1.25s;
 }
 
 footer a {
@@ -216,8 +204,4 @@ footer a:hover {
     text-decoration: none;
     font-weight: 600;
     color: #ffc107;
-}
-
-footer .questions {
-    text-align: right;
 }
