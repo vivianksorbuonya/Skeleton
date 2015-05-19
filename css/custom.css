@@ -205,3 +205,8 @@ footer a:hover {
     font-weight: 600;
     color: #ffc107;
 }
+
+footer a.button-primary, a.button-primary:hover {
+	background-color: #434343;
+	color: #efefef;
+}
