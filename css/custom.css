@@ -206,7 +206,15 @@ footer a:hover {
     color: #ffc107;
 }
 
-footer a.button-primary, a.button-primary:hover {
+footer a.button.button-primary.demo {
 	background-color: #434343;
 	color: #efefef;
+	border: #434343;
+}
+
+footer a.button.button-primary.demo:hover {
+	background-color: #434343;
+	color: #efefef;
+	border: #434343;
+	
 }
